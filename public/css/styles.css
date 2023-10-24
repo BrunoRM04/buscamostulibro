@@ -20,8 +20,8 @@ header {
     color: #fff;
 }
 .logo {
-    display: flex; /* Esto activa el modelo de caja flexible */
-    align-items: center; /* Alinea verticalmente los elementos al centro */
+    display: flex;
+    align-items: center;
 }
 .logo img {
     width: 70px;
@@ -61,7 +61,41 @@ header {
 /* ENCABEZADO */
 
 /* BUSCADOR */
-
+.search-container {
+    display: flex;
+    justify-content: center; /* Agrega esta propiedad para centrar horizontalmente */
+    align-items: center; /* Agrega esta propiedad para centrar verticalmente */
+    max-width: 400px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin: 0 auto; /* Agrega esta propiedad para centrar horizontalmente en la pantalla */
+    margin-top: 30px;
+}
+#search-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+}
+#search-button {
+    background-color: #9e0001;
+    color: #fff;
+    border: none;
+    border-radius: 0 25px 25px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.results {
+    margin-top: 20px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+}
 /* BUSCADOR */
 
 
