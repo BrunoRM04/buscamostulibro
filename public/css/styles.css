@@ -44,7 +44,7 @@ header {
     color: #fff;
 }
 .nav-list a:hover{
-    color: gray;
+    color: #800d0d;
     transition: 0.9s;
 }
 .menu-toggle {
@@ -59,6 +59,23 @@ header {
     margin: 3px 0;
 }
 /* ENCABEZADO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* BUSCADOR */
 .search-container {
@@ -97,6 +114,66 @@ header {
     padding: 20px;
 }
 /* BUSCADOR */
+/* ESTILOS DE RESULTADOS */
+.resultado {
+    display: grid;
+    grid-template-columns: 1fr 3fr auto;
+    grid-template-rows: auto auto;
+    grid-gap: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f5f5f5;
+}
+.resultado h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 900;
+    grid-row: 1;
+    grid-column: 2;
+}
+.resultado img {
+    max-width: 100px;
+    grid-row: 1 / span 2;
+    grid-column: 1;
+    margin-right: 10px; /* Espaciado entre la imagen y el título */
+}
+.resultado .autor {
+    color: #9e0001;
+    font-weight: 600;
+    font-size: 14px;
+    grid-row: 2;
+    grid-column: 2;
+    margin-top: 40px;
+}
+.resultado .isbn {
+    color: #9e0001;
+    font-weight: 600;
+    font-size: 14px;
+    grid-row: 2;
+    grid-column: 2;
+}
+.resultado a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #9e0001;
+    padding: 5px 10px;
+    grid-row: 1 / span 2;
+    grid-column: 3;
+    justify-self: end;
+    border-radius: 20px;
+}
+/* ESTILOS DE RESULTADOS */
+
+
+
+
+
+
+
+
+
 
 
 
@@ -108,6 +185,7 @@ header {
     align-items: center;
     color: #000000; /* Color del texto */
     padding: 10px;
+    margin-top: 15px;
 }
 .titulo {
     margin-left: 20px; /* Margen izquierdo para el título */
@@ -120,13 +198,13 @@ header {
     color: #9e0001; /* Cambia el color del enlace a blanco */
 }
 /* NOVEDADES */
-
-
-
-
-
-
-
+/* LINEA */
+.linea {
+    border: none;
+    height: 3px;
+    background-color: #000;
+}
+/* LINEA */
 /* CONTENEDORES */
 .container {
     display: grid;
@@ -144,6 +222,11 @@ header {
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
+    transition: box-shadow 0.3s, transform 0.3s;
+}
+.card:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
 }
 .card img {
     max-width: 100%;
@@ -181,6 +264,68 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SECCIÓN DE LIBROS */
+.book-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.book-details {
+    flex: 1;
+    padding: 20px;
+}
+.book-image {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+h2 {
+    font-size: 24px;
+}
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+.description {
+    font-size: 14px;
+    margin-top: 50px;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.buy-button {
+    display: inline-block;
+    background-color: #9e0001; /* Cambia el color de fondo según tus preferencias */
+    color: #fff; /* Cambia el color del texto según tus preferencias */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.buy-button:hover {
+    background-color: #800d0d; /* Cambia el color de fondo cuando se coloca el ratón sobre el botón */
+}
+/* SECCIÓN DE LIBROS */
 
 
 
@@ -283,6 +428,52 @@ header {
         margin: 10px;
         align-items: center;
         justify-content: center
+    }
+}
+@media (max-width: 768px) {
+    .resultado {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .resultado h3 {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .resultado img {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .resultado .autor {
+        grid-row: 3;
+        grid-column: 1;
+    }
+
+    .resultado .isbn {
+        grid-row: 4;
+        grid-column: 1;
+    }
+
+    .resultado a {
+        grid-row: 2;
+        grid-column: 1;
+    }
+}
+@media screen and (max-width: 320px) {
+    .book-section {
+        flex-direction: column;
+    }
+
+    .book-details,
+    .book-image {
+        flex: auto;
+        text-align: center;
+    }
+
+    .book-image img {
+        max-width: 80%;
     }
 }
 /* MEDIA QUARES */

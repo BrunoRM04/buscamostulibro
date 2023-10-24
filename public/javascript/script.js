@@ -56,14 +56,16 @@ function mostrarResultados(libros, query, container, originalContent) {
             resultado.classList.add('resultado');
             resultado.innerHTML = `
                 <h3>${libro.titulo}</h3>
-                <p>Autor: ${libro.autor}</p>
-                <p>ISBN: ${libro.isbn}</p>
-                <a href="libro${libro.id}.html">Ver detalle</a>
+                <img src="${libro.imagen}" alt="Portada del libro">
+                <p class="autor">Autor: ${libro.autor}</p>
+                <p class="isbn">ISBN: ${libro.isbn}</p>
+                <a href="${libro.detalleUrl}"">Ver Más</a>
             `;
             container.appendChild(resultado);
         });
     }
 }
+
 
 // Cargar la base de datos y configurar la funcionalidad
 cargarBaseDeDatos();
