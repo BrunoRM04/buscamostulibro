@@ -2,24 +2,9 @@
     "libros": [
         {
             "id": 1,
-            "titulo": "Libro 1",
-            "autor": "Autor 1",
-            "isbn": "1234567890",
-            "descripcion": "Este es el libro 1."
-        },
-        {
-            "id": 2,
-            "titulo": "Libro 2",
-            "autor": "Autor 2",
-            "isbn": "9876543210",
-            "descripcion": "Este es el libro 2."
-        },
-        {
-            "id": 3,
-            "titulo": "Libro 3",
-            "autor": "Autor 3",
-            "isbn": "5432167890",
-            "descripcion": "Este es el libro 3."
+            "titulo": "Mañana y tarde",
+            "autor": "Jon Fosse",
+            "isbn": "1234567890"
         }
     ]
 }

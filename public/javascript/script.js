@@ -7,7 +7,7 @@ menuToggle.addEventListener('click', () => {
 });
 // ENCABEZADO
 
-
+// BUSCADOR
 function cargarBaseDeDatos() {
     fetch('./json/data.json')
         .then(response => response.json())
@@ -58,7 +58,6 @@ function mostrarResultados(libros, query, container, originalContent) {
                 <h3>${libro.titulo}</h3>
                 <p>Autor: ${libro.autor}</p>
                 <p>ISBN: ${libro.isbn}</p>
-                <p>${libro.descripcion}</p>
                 <a href="libro${libro.id}.html">Ver detalle</a>
             `;
             container.appendChild(resultado);
@@ -68,7 +67,7 @@ function mostrarResultados(libros, query, container, originalContent) {
 
 // Cargar la base de datos y configurar la funcionalidad
 cargarBaseDeDatos();
-
+// BUSCADOR
 
 
 
