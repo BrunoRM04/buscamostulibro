@@ -6,7 +6,8 @@
             "autor": "Jon Fosse",
             "isbn": "1234567890",
             "imagen": "./assets/img/libros/mañana y tarde.jpg",
-            "detalleUrl": "./public/html/libros/manana-y-tarde.html" 
+            "detalleUrl": "./libros/mananaytarde.html"
         }
     ]
+    
 }
