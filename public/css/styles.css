@@ -349,27 +349,37 @@ img {
 
 
 
-
-
 /* PIE DE PÁGINA */
-.piedepagina {
-    width: 100%;
-}
 .footer {
-    background-image: url(../pages/fondo1.jpg);
-    color: #fff;
-    text-align: center;
+    background-color: #800d0d;
+    color: white;
     padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.social i {
-    text-decoration: none;
-    color: #fff;
-    margin: 15px 10px;
-    font-size: 30px;
+.left-section {
+    text-align: left;
 }
-.email a {
+.center-section {
+    text-align: center;
+}
+.right-section {
+    text-align: right;
+}
+.footer a {
+    color: white;
     text-decoration: none;
-    color: #fff;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .social-icons {
+    margin-top: 10px;
+}
+.footer .social-icons a {
+    margin: 0 10px;
+    font-size: 20px;
 }
 /* PIE DE PÁGINA */
 
@@ -506,4 +516,68 @@ img {
         max-width: 80%;
     }
 }
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-section, .center-section, .right-section {
+        flex: none;
+        text-align: center;
+    }
+}
+@media (max-width: 600px) {
+    .footer .social-icons {
+        margin-top: 20px;
+    }
+
+    .footer .social-icons a {
+        margin: 0 5px;
+        font-size: 18px;
+    }
+}
 /* MEDIA QUARES */
+/* MEDIA QUARES CONTENEDORES NUEVOS */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 425px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 375px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }
+
+    .card {
+        padding: 10px;
+    }
+
+    .comprar-button {
+        margin-top: 15px;
+    }
+    .titulo {
+        font-size: 24px;
+    }
+}
+@media (max-width: 320px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 10px;
+    }
+    .card {
+        padding: 10px;
+    }
+    .comprar-button {
+        margin-top: 15px;
+    }
+    .titulo {
+        font-size: 24px;
+    }
+}
+/* MEDIA QUARES CONTENEDORES NUEVOS */
