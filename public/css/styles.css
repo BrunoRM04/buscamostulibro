@@ -491,4 +491,19 @@ img {
         max-width: 80%;
     }
 }
+@media screen and (max-width: 425px) {
+    .book-section {
+        flex-direction: column;
+    }
+
+    .book-details,
+    .book-image {
+        flex: auto;
+        text-align: center;
+    }
+
+    .book-image img {
+        max-width: 80%;
+    }
+}
 /* MEDIA QUARES */
