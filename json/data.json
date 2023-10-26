@@ -4,9 +4,65 @@
             "id": 1,
             "titulo": "MAÑANA Y TARDE",
             "autor": "Jon Fosse",
-            "isbn": "1234567890",
+            "isbn": "9788419735621",
             "imagen": "./assets/img/libros/mañana y tarde.jpg",
             "detalleUrl": "./libros/mananaytarde.html"
+        },
+        {
+            "id": 2,
+            "titulo": "SIGO SIN SABER DE TI",
+            "autor": "Peter Orner",
+            "isbn": "9788412498288",
+            "imagen": "./assets/img/libros/sigo sin saber de ti.jpg",
+            "detalleUrl": "./libros/sigosinsaberdeti.html"
+        },
+        {
+            "id": 3,
+            "titulo": "REGGAETÓN. UNA REVOLUCIÓN LATINA",
+            "autor": "Pablito Wilson",
+            "isbn": "9788419234018",
+            "imagen": "./assets/img/libros/reggaeton una revolucion latina.jpg",
+            "detalleUrl": "./libros/reggaetonunarevolucionlatina.html"
+        },
+        {
+            "id": 4,
+            "titulo": "EL ALA DERECHA",
+            "autor": "Mircea Cartarescu",
+            "isbn": "9788418668692",
+            "imagen": "./assets/img/libros/el ala derecha.jpeg",
+            "detalleUrl": "./libros/elaladerecha.html"
+        },
+        {
+            "id": 5,
+            "titulo": "EL AMOR ES IMPOSIBLE",
+            "autor": "Dario Sztajnszrajber",
+            "isbn": "9788434436732",
+            "imagen": "./assets/img/libros/el amor es imposible.jpg",
+            "detalleUrl": "./libros/elamoresimposible.html"
+        },
+        {
+            "id": 6,
+            "titulo": "EL PROBLEMA DE LOS TRES CUERPOS",
+            "autor": "Cixin Liu",
+            "isbn": "9788490695289",
+            "imagen": "./assets/img/libros/el problema de los tres cuerpos.jpg",
+            "detalleUrl": "./libros/elproblemadelostrescuerpos.html"
+        },
+        {
+            "id": 7,
+            "titulo": "POMBERO",
+            "autor": "Marina Closs",
+            "isbn": "9788483933282",
+            "imagen": "./assets/img/libros/pombero.jpg",
+            "detalleUrl": "./libros/pombero.html"
+        },
+        {
+            "id": 8,
+            "titulo": "DARNAUCHANS, ENTRE EL CUERVO Y EL ÁNGEL",
+            "autor": "Marcelo Rodríguez",
+            "isbn": "9789974836105",
+            "imagen": "./assets/img/libros/entre el cuervo y el angel.jpeg",
+            "detalleUrl": "./libros/entreelcuervoyelangel.html"
         }
     ]
     
