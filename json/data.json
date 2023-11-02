@@ -63,6 +63,142 @@
             "isbn": "9789974836105",
             "imagen": "./assets/img/libros/entre el cuervo y el angel.jpeg",
             "detalleUrl": "./libros/entreelcuervoyelangel.html"
+        },
+        {
+            "id": 9,
+            "titulo": "LA FRECUENTE OSCURIDAD DE NUESTROS DÍAS",
+            "autor": "Rebecca Donner",
+            "isbn": "9788419089595",
+            "imagen": "./assets/img/libros/la frecuente oscuridad de nuestros dias.jpg",
+            "detalleUrl": "./libros/lafrecuenteoscuridad.html"
+        },
+        {
+            "id": 10,
+            "titulo": "CLANDESTINA",
+            "autor": "Marie Jalowicz Simon",
+            "isbn": "9788418838514",
+            "imagen": "./assets/img/libros/clandestina.jpg",
+            "detalleUrl": "./libros/clandestina.html"
+        },
+        {
+            "id": 11,
+            "titulo": "UN CABALLERO A LA DERIVA",
+            "autor": "Herbert Clyde Lewis",
+            "isbn": "9788418838668",
+            "imagen": "./assets/img/libros/un caballero a la deriva.jpg",
+            "detalleUrl": "./libros/uncaballeroaladeriva.html"
+        },
+        {
+            "id": 12,
+            "titulo": "TORTURA. HAY UNA BOMBA A PUNTO DE ESTALLAR",
+            "autor": "Bob Brecher",
+            "isbn": "9788419583130",
+            "imagen": "./assets/img/libros/tortura.jpg",
+            "detalleUrl": "./libros/tortura.html"
+        },
+        {
+            "id": 13,
+            "titulo": "ALGUNAS FORMAS DE AMOR",
+            "autor": "Charlotte Mew",
+            "isbn": "9788416291694",
+            "imagen": "./assets/img/libros/algunas formas de amor.jpg",
+            "detalleUrl": "./libros/algunasformasdeamor.html"
+        },
+        {
+            "id": 14,
+            "titulo": "HISTORIAS DE VIGÁTA (VOL. 1)",
+            "autor": "Andrea Camilleri",
+            "isbn": "9788418481482",
+            "imagen": "./assets/img/libros/historias de vigata 1.jpg",
+            "detalleUrl": "./libros/historiasdevigata1.html"
+        },
+        {
+            "id": 15,
+            "titulo": "HISTORIAS DE VIGÁTA (VOL. 2)",
+            "autor": "Andrea Camilleri",
+            "isbn": "9788418481741",
+            "imagen": "./assets/img/libros/historias de vigata 2.jpg",
+            "detalleUrl": "./libros/historiasdevigata2.html"
+        },
+        {
+            "id": 16,
+            "titulo": "ASENTIR O DESESTABILIZAR",
+            "autor": "Rafael Chirbes",
+            "isbn": "9788419583994",
+            "imagen": "./assets/img/libros/asentir o desestabilizar.jpg",
+            "detalleUrl": "./libros/asentirodesestabilizar.html"
+        },
+        {
+            "id": 17,
+            "titulo": "AMIGOS Y HÉROES",
+            "autor": "Olivia Manning",
+            "isbn": "9788419089564",
+            "imagen": "./assets/img/libros/amigos y heroes.jpg",
+            "detalleUrl": "./libros/amigosyheroes.html"
+        },
+        {
+            "id": 18,
+            "titulo": "NO ME GUSTA MI CUELLO",
+            "autor": "Nora Ephron",
+            "isbn": "9788419089465",
+            "imagen": "./assets/img/libros/no me gusta mi cuello.jpg",
+            "detalleUrl": "./libros/nomegustamicuello.html"
+        },
+        {
+            "id": 19,
+            "titulo": "PALABRA POR PALABRA",
+            "autor": "Ida Vitale",
+            "isbn": "9789915675749",
+            "imagen": "./assets/img/libros/palabra por palabra.jpg",
+            "detalleUrl": "./libros/palabraporpalabra.html"
+        },
+        {
+            "id": 20,
+            "titulo": "PERSONAJES SECUNDARIOS",
+            "autor": "Joyce Johnson",
+            "isbn": "9788416213184",
+            "imagen": "./assets/img/libros/personajes secundarios.jpg",
+            "detalleUrl": "./libros/personajessecundarios.html"
+        },
+        {
+            "id": 21,
+            "titulo": "LA TORMENTA PERFECTA",
+            "autor": "Sebastian Junger",
+            "isbn": "9788419089618",
+            "imagen": "./assets/img/libros/la tormenta perfecta.jpg",
+            "detalleUrl": "./libros/latormentaperfecta.html"
+        },
+        {
+            "id": 22,
+            "titulo": "LAS MARIPOSAS NEGRAS",
+            "autor": "Gabriel Katz",
+            "isbn": "9788419346193",
+            "imagen": "./assets/img/libros/las mariposas negras.jpg",
+            "detalleUrl": "./libros/lamariposanegra.html"
+        },
+        {
+            "id": 23,
+            "titulo": "LOS DESTROZOS",
+            "autor": "Bret Easton Ellis",
+            "isbn": "9788439741725",
+            "imagen": "./assets/img/libros/los destrozos.jpg",
+            "detalleUrl": "./libros/losdestrozos.html"
+        },
+        {
+            "id": 24,
+            "titulo": "AMERICAN PSYCHO",
+            "autor": "Bret Easton Ellis",
+            "isbn": "9788466367653",
+            "imagen": "./assets/img/libros/american psycho.jpg",
+            "detalleUrl": "./libros/americanpsycho.html"
+        },
+        {
+            "id": 25,
+            "titulo": "LA TENTACIÓN DE EXISTIR",
+            "autor": "E. M. Cioran",
+            "isbn": "9788430626366",
+            "imagen": "./assets/img/libros/la tentacion de existir.jpg",
+            "detalleUrl": "./libros/latentaciondeexistir.html"
         }
     ]
     
